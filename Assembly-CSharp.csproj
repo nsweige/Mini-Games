@@ -56,19 +56,19 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Recycle\Can.cs" />
-    <Compile Include="Assets\Menu.cs" />
-    <Compile Include="Assets\Recycle\Dry.cs" />
-    <Compile Include="Assets\Recycle\Wet.cs" />
     <Compile Include="Assets\Recycle\Spawner.cs" />
-    <Compile Include="Assets\Recycle\GameOverLogic.cs" />
+    <Compile Include="Assets\Recycle\Can.cs" />
+    <Compile Include="Assets\Recycle\Wet.cs" />
+    <Compile Include="Assets\Turtle\scripts\ObstacleSpawner.cs" />
+    <Compile Include="Assets\Turtle\scripts\FIshSpawner.cs" />
+    <Compile Include="Assets\Turtle\scripts\LogicManager.cs" />
+    <Compile Include="Assets\Turtle\scripts\FishMove.cs" />
+    <Compile Include="Assets\Turtle\scripts\MiddleObstacle.cs" />
     <Compile Include="Assets\Turtle\scripts\Turtle.cs" />
     <Compile Include="Assets\Turtle\scripts\ObstacleMove.cs" />
-    <Compile Include="Assets\Turtle\scripts\ObstacleSpawner.cs" />
-    <Compile Include="Assets\Turtle\scripts\LogicManager.cs" />
-    <Compile Include="Assets\Turtle\scripts\MiddleObstacle.cs" />
-    <Compile Include="Assets\Turtle\scripts\FIshSpawner.cs" />
-    <Compile Include="Assets\Turtle\scripts\FishMove.cs" />
+    <Compile Include="Assets\Recycle\GameOverLogic.cs" />
+    <Compile Include="Assets\Recycle\Dry.cs" />
+    <Compile Include="Assets\Menu.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
