@@ -22,7 +22,7 @@ public class Spawner : MonoBehaviour
         {
             lSpawn = timer;
             randomPos = Random.Range(0, 8);
-            randomWaste = Random.Range(0, 3);
+            randomWaste = Random.Range(0, 4);
 
             Instantiate(waste[randomWaste], spawnPos[randomPos].transform.position, spawnPos[randomPos].transform.rotation);
         }
